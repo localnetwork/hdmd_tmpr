@@ -1,0 +1,5 @@
+name = HDMD Taxonomy Menu Prevent Reordering
+description = this a small module that prevents the taxonomy_menu from changing the #weight in the menu links after updating taxonomy terms.
+package = HDMD
+core = 7.x
+dependencies[] = taxonomy_menu 

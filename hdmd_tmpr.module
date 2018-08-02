@@ -1,0 +1,8 @@
+function hdmd_tmpr_taxonomy_menu_update(&$item) {
+ if ($item['ptid'] !== '0') {
+   return;
+ } 
+
+ $menu_link = menu_link_load($item['mlid']);
+ $item['weight'] = $menu_link['weight'];
+}
